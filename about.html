@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <title>공항 셔츠룸 비교 | 정보 | 진짜를 말한다</title>
+    <meta name="description" content="공항 셔츠룸, 가격만 보면 바보 된다. 시스템, 서비스, 분위기까지 전격 비교. 니가 몰랐던 진실. 지금 확인하고 현명하게 골라보세요. 전화 010-6279-0862">
+    <meta name="keywords" content="공항 셔츠룸, 공항 셔츠룸 비교, 셔츠룸 정보, 셔츠룸 추천, 인천공항 셔츠룸, 셔츠룸 가격, 셔츠룸 시스템">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://t3b08-gh-shirts-cmp.vercel.app/info">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="공항 셔츠룸 비교 | 정보 | 진짜를 말한다">
+    <meta property="og:description" content="공항 셔츠룸, 가격만 보면 바보 된다. 시스템, 서비스, 분위기까지 전격 비교. 니가 몰랐던 진실.">
+    <meta property="og:url" content="https://t3b08-gh-shirts-cmp.vercel.app/info">
+    <meta property="og:image" content="https://t3b08-gh-shirts-cmp.vercel.app/og-image.jpg">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        /* CSS Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #faf9f5;
+            padding-top: 0;
+            margin: 0;
+        }
+        img, svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover {
+            color: #c73e3e;
+        }
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Grid System */
+        .grid {
+            display: grid;
+            gap: 24px;
+        }
+        .grid-2 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .grid-3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media (max-width: 768px) {
+            .grid-2, .grid-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+        /* Sticky Nav */
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 0 20px;
+        }
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+        }
+        .logo a {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #1a1a1a;
+            text-transform: uppercase;
+        }
+        .site-nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .site-nav a {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s ease, color 0.2s ease;
+        }
+        .site-nav a:hover,
+        .site-nav a.active {
+            color: #1a1a1a;
+            border-bottom-color: #c73e3e;
+        }
+        .site-nav a.active {
+            font-weight: 700;
+        }
+        .tel-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: #c73e3e;
+            padding: 8px 16px;
+            border: 2px solid #c73e3e;
+            border-radius: 4px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .tel-link:hover {
+            background-color: #c73e3e;
+            color: #ffffff;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background-color: #1a1a1a;
+            border-radius: 2px;
+            transition: all 0.2s ease;
+        }
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background-color: #ffffff;
+                flex-direction: column;
+                padding: 20px;
+                border-bottom: 1px solid #e5e5e5;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            }
+            .site-nav.open {
+                display: flex;
+            }
+            .site-nav a {
+                padding: 12px 0;
+                border-bottom: none;
+                width: 100%;
+                text-align: left;
+            }
+            .site-nav a.active {
+                border-bottom: none;
+                color: #c73e3e;
+            }
+            .tel-link {
+                margin-top: 8px;
+                justify-content: center;
+            }
+            .hamburger-menu {
+                display: flex;
+            }
+        }
+        /* Page Specific Styles */
+        .page-hero {
+            padding: 60px 0 40px;
+            text-align: center;
+        }
+        .page-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .page-hero h1 span {
+            color: #c73e3e;
+        }
+        .page-hero p {
+            font-size: 1.125rem;
+            color: #666;
+            max-width: 640px;
+            margin: 0 auto 24px;
+            line-height: 1.7;
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 32px;
+            letter-spacing: -0.02em;
+            text-align: center;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 3px;
+            background-color: #c73e3e;
+            margin: 12px auto 0;
+        }
+        .info-card {
+            background-color: #ffffff;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 32px;
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }
+        .info-card:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+            transform: translateY(-2px);
+        }
+        .info-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        .info-card p {
+            font-size: 0.9375rem;
+            color: #555;
+            line-height: 1.7;
+        }
+        .info-card .badge {
+            display: inline-block;
+            background-color: #c73e3e;
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 32px 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e5e5e5;
+        }
+        .comparison-table th,
+        .comparison-table td {
+            padding: 16px 20px;
+            text-align: left;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: 0.9375rem;
+        }
+        .comparison-table th {
+            background-color: #f5f3ef;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: #333;
+        }
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+        .comparison-table .highlight {
+            color: #c73e3e;
+            font-weight: 700;
+        }
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px 0;
+        }
+        .faq-item:first-child {
+            border-top: 1px solid #e5e5e5;
+        }
+        .faq-question {
+            font-size: 1.0625rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+        .faq-question::after {
+            content: '+';
+            font-size: 1.25rem;
+            color: #c73e3e;
+            transition: transform 0.2s ease;
+        }
+        .faq-question.open::after {
+            content: '−';
+        }
+        .faq-answer {
+            margin-top: 12px;
+            font-size: 0.9375rem;
+            color: #555;
+            line-height: 1.7;
+            display: none;
+        }
+        .faq-answer.open {
+            display: block;
+        }
+        .cta-section {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 60px 20px;
+            margin-top: 40px;
+            border-radius: 8px;
+        }
+        .cta-section h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            font-size: 1.125rem;
+            color: #ccc;
+            margin-bottom: 24px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #c73e3e;
+            color: #ffffff;
+            padding: 16px 40px;
+            font-size: 1.125rem;
+            font-weight: 700;
+            border-radius: 4px;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+        .cta-button:hover {
+            background-color: #a83232;
+            transform: translateY(-2px);
+            color: #ffffff;
+        }
+        .site-footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.8125rem;
+            color: #999;
+            border-top: 1px solid #e5e5e5;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.75rem;
+            }
+            .page-hero p {
+                font-size: 1rem;
+            }
+            .section-title {
+                font-size: 1.375rem;
+            }
+            .info-card {
+                padding: 24px;
+            }
+            .comparison-table th,
+            .comparison-table td {
+                padding: 12px 14px;
+                font-size: 0.8125rem;
+            }
+            .cta-section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="/">공항 셔츠룸 비교</a>
+            </div>
+            <nav class="site-nav" id="mainNav">
+                <a href="/">홈</a>
+                <a href="/info" class="active">정보</a>
+                <a href="/review">후기</a>
+                <a href="/price">가격</a>
+                <a href="/faq">FAQ</a>
+                <a href="tel:01062790862" class="tel-link">010-6279-0862</a>
+            </nav>
+            <button class="hamburger-menu" id="hamburgerBtn" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>공항 셔츠룸, <span>진짜 정보</span>는 이거다</h1>
+                <p>가격만 보고 덤비면 100% 호구 된다. 시스템, 서비스, 분위기, 매니저 수준까지. 니가 몰랐던 진실을 까발린다. 이걸 보면 공항 셔츠룸의 절반은 알게 될 거다.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">공항 셔츠룸, 왜 이 난리인가?</h2>
+                <div class="grid grid-3">
+                    <div class="info-card">
+                        <span class="badge">시스템</span>
+                        <h3>입장부터 퇴장까지, 다르다</h3>
+                        <p>일반 셔츠룸이랑 급이 다르다. VIP 라운지 수준의 대기실, 1:1 전담 매니저, 칵테일 바까지. 여기는 '셔츠룸'이라는 이름이 무색할 정도로 시스템이 빡세다. 입장 전 간단한 음료와 함께 브리핑, 그리고 매니저 소개. 이런 게 기본이다.</p>
+                    </div>
+                    <div class="info-card">
+                        <span class="badge">매니저</span>
+                        <h3>매니저 퀄리티, 말 다했다</h3>
+                        <p>공항 셔츠룸의 매니저는 그냥 예쁜 게 아니다. 스펙, 분위기, 화술, 텐션까지. 업소마다 차이는 있지만, 상위 10%는 진짜 레전드다. 니가 상상하는 그 이상. 직접 보고 판단해라.</p>
+                    </div>
+                    <div class="info-card">
+                        <span class="badge">분위기</span>
+                        <h3>인테리어에 미친 놈들</h3>
+                        <p>공항 근처 셔츠룸 중에 인테리어에 10억 이상 쓴 곳이 수두룩하다. 조명, 가구, 심지어 향까지 신경 썼다. 들어가자마자 '와...' 소리 나오는 곳이 진짜다. 가성비 따지지 말고 분위기로 골라라.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">공항 셔츠룸, 이렇게 골라라</h2>
+                <div class="grid grid-2">
+                    <div class="info-card">
+                        <h3>✅ 가격만 보면 바보</h3>
+                        <p>가격 싸다고 무조건 가는 놈들, 100% 후회한다. 공항 셔츠룸은 서비스와 시스템에 돈을
+</body>
+</html>
